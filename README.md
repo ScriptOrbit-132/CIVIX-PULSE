@@ -117,7 +117,7 @@ $$;
 
 First, clone the repository to your local machine:
 ```bash
-git clone https://github.com/Visionstack-404/CIVIX-PULSE.git
+git https://github.com/srivarshiniyadav/CIVIX-PULSE
 cd CIVIX-PULSE
 ```
 
@@ -197,6 +197,6 @@ npm run dev
 
 ---
 ### 👨‍💻 Built By
-**Ramakotesh Ramulapenta** 📧 ramakoteshramulapenta@gmail.com
+**srivarshiniyadav** 📧 srivarshiniyadav30@gmail.com
 
 *Built with ❤️ for a better, automated future. (SDG 9 & SDG 11)*
