@@ -3,14 +3,14 @@ from groq import Groq
 import os
 from dotenv import load_dotenv
 
-# Load environment variables from .env
+
 load_dotenv(override=True)
 
-# --- 🛑 CONFIGURATION 🛑 ---
+
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "your_groq_api_key_here")
 client = Groq(api_key=GROQ_API_KEY)
 GROQ_MODEL = "llama-3.3-70b-versatile"
-# ---------------------------
+
 
 def agent_filter(user_text):
     print("🧠 AGENT 1 (Groq): Analyzing Conversation...")
