@@ -12,7 +12,7 @@ from groq import AsyncGroq
 import traceback
 import base64
 
-# --- 🚀 OPEN SOURCE CLUSTERING LIBRARIES ---
+
 from sentence_transformers import SentenceTransformer
 import imagehash
 from PIL import Image
@@ -25,7 +25,7 @@ load_dotenv(override=True)
 
 # ==========================================
 # 🛑 CONFIGURATION (SECURED) 🛑
-# ==========================================
+
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
